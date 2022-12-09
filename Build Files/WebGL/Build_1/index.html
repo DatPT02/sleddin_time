@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sleddin Time| Crazy Games</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+  <script type="text/javascript">
+    var slugify = (text) => {
+      return (text || '')
+        .replace(/&/g, ' and ')
+        .replace(/[^a-zA-Z0-9]/g, ' ')
+        .trim()
+        .replace(/\s+/g, '-')
+        .toLowerCase();
+    }
+    var options = {
+      author: "Unity Developer",
+      gameName: "Sleddin Time",
+      gameSlug: slugify("Sleddin Time"),
+      gameLink: "https://www.crazygames.com/game/your-game-here",
+      allowFullscreen: true,
+      locale: "en_US",
+      loader: "unity2020",
+      loaderOptions: {
+        unityLoaderUrl: "Build/126f6c7a556bf94001fa232dafce8ab6.js",
+        unityConfigOptions: {
+          "dataUrl": "Build/b87a69c02c02055701900f35d3ddc859.data.br",
+          "frameworkUrl": "Build/93104c4c826cd38bb0131ed3a83b8606.js.br",
+          "codeUrl": "Build/307a9393857e8c7d79fa20e8831d25d0.wasm.br",
+          "streamingAssetsUrl": "StreamingAssets",
+        }
+      },
+      category: "UnitySDK",
+      categoryLink: "https://www.crazygames.com",
+      thumbnail: "https://images.crazygames.com/upcoming.png",
+      gameStatus: "published",
+      dollarRate: 1,
+      sdkDebug: true,
+      gameLink: 'https://www.crazygames.com/testgame',
+      forceTestAds: true,
+    };
+
+    window.CrazyGames = {};
+    window.CrazyGames.options = options;
+  </script>
+  <iframe id="unity" allow="autoplay; fullscreen" style="width: 922px; height: 532px;"></iframe>
+  <script type="text/javascript">
+    var iframe = document.getElementById('unity');
+    iframe.setAttribute('src', 'template.html' + window.location.search);
+  </script>
+</body>

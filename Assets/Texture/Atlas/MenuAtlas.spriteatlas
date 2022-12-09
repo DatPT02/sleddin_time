@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MenuAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 412e5754210c7a040a18430a624e2870, type: 3}
+    - {fileID: 2800000, guid: e1172d0161030574dae11c5e2cb8921a, type: 3}
+    - {fileID: 2800000, guid: 2ff02442411cec8498c96c38115aa641, type: 3}
+    - {fileID: 2800000, guid: 2fec9222f7ca3ee4280620fca6b52fc1, type: 3}
+    - {fileID: 2800000, guid: 7de71953d3bdc7543b80999cb559a9ea, type: 3}
+    - {fileID: 2800000, guid: cbc5478ab320f8b4abf241e09cd0f1c2, type: 3}
+    - {fileID: 2800000, guid: 07ee7a3ee5a4c8a4cb632a9d8131a730, type: 3}
+    - {fileID: 2800000, guid: 4ce557cc090bf604999f084d5c52f88c, type: 3}
+    - {fileID: 2800000, guid: dce07060ba1c3964a84b3ec42f0c2477, type: 3}
+    - {fileID: 2800000, guid: 8e02c966211256547b69c0381a52d995, type: 3}
+    - {fileID: 2800000, guid: 333577eebe3cf2649a6c7f3d299dceba, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: dce07060ba1c3964a84b3ec42f0c2477, type: 3}
+  - {fileID: 21300000, guid: e1172d0161030574dae11c5e2cb8921a, type: 3}
+  - {fileID: 21300000, guid: 2fec9222f7ca3ee4280620fca6b52fc1, type: 3}
+  - {fileID: 21300000, guid: 2ff02442411cec8498c96c38115aa641, type: 3}
+  - {fileID: 21300000, guid: 7de71953d3bdc7543b80999cb559a9ea, type: 3}
+  - {fileID: 21300000, guid: 412e5754210c7a040a18430a624e2870, type: 3}
+  - {fileID: 21300000, guid: 8e02c966211256547b69c0381a52d995, type: 3}
+  - {fileID: 21300000, guid: cbc5478ab320f8b4abf241e09cd0f1c2, type: 3}
+  - {fileID: 21300000, guid: 4ce557cc090bf604999f084d5c52f88c, type: 3}
+  - {fileID: 21300000, guid: 07ee7a3ee5a4c8a4cb632a9d8131a730, type: 3}
+  - {fileID: 21300000, guid: 333577eebe3cf2649a6c7f3d299dceba, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - box_event1
+  - button_round
+  - home
+  - film
+  - return
+  - cross
+  - box_exp1
+  - pause
+  - box_coin1
+  - button_start
+  - box_select1
+  m_RenderDataMap: {}
+  m_Tag: MenuAtlas
+  m_IsVariant: 0

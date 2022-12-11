@@ -5,6 +5,6 @@ An endless runner game with winter theme.
 ![Alt text](/Pictures/Picture.PNG "Game Picture")
 
 ## Game Link
-```
-https://www.crazygames.com/game/sleddin-time
-```
+
+[Game Link](https://www.crazygames.com/game/sleddin-time)
+
